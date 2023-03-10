@@ -4,7 +4,6 @@ import edu.AnastasiiaTkachuk.entity.Gender;
 import edu.AnastasiiaTkachuk.entity.Role;
 import edu.AnastasiiaTkachuk.entity.User;
 import edu.AnastasiiaTkachuk.integration.IntegrationTestBase;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
@@ -14,7 +13,7 @@ import java.util.Optional;
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-class UserDaoTest extends IntegrationTestBase {
+class UserDaoIT extends IntegrationTestBase {
     private final UserDao userDao = UserDao.getInstance();
 
     @Test
